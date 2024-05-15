@@ -105,3 +105,90 @@
   fun8('Kazi', 'Afzaluddin')
 }
 
+{
+  function startCooking() {
+    console.log('Cook noodles for me');
+  }
+  startCooking() /// we call the function by name and ( ) bracket
+}
+
+{
+  function cookFood(cook) {  // (parameter) of the function name within the bracket
+    console.log(cook, 'is cooking noodles for me');
+  }
+  cookFood('brother')  //(value) of the parameter of the same function name
+  cookFood('sister')
+  cookFood('Amma')
+}
+
+{
+  function name(params) {
+    console.log(params, "is the parameter");
+  }
+  name('Here, number')
+}
+
+{
+  function writeName(assignedParameter) {
+    console.log(assignedParameter);
+  }
+  writeName('Write the value of assignedParameter')
+}
+
+{
+  function WriteTwoNames(person, identity) {
+    console.log(person, identity);
+  }
+  WriteTwoNames('Johny', 666);
+}
+
+{
+  function twoNumbersAdd(number1, number2) {
+    const add = number1 + number2;
+    console.log(add);
+  }
+  twoNumbersAdd(15, 18);
+}
+
+{
+  function mathRound(number1) {
+    const roundedNumber = Math.round(number1);
+    console.log(roundedNumber);
+  }
+  mathRound(45.102)
+}
+
+
+{
+  function mathToFixed(number) {
+    const toFixedNumber = number.toFixed(2);
+    console.log(toFixedNumber);
+  }
+  mathToFixed(45.505);
+  mathToFixed(45.504)
+}
+
+{
+  function mathRandom() {
+    const randomNumber = Math.random();
+    console.log(randomNumber);
+  }
+  mathRandom()
+}
+
+{
+  function mathRandom() {
+    const randomNumber = Math.random() * 10000;
+    const randomNumberInteger = parseInt(randomNumber)
+    //console.log(randomNumberInteger);
+
+    if (String(randomNumberInteger).length == 4) {
+      console.log(randomNumberInteger);
+      return randomNumberInteger;
+    }
+    else {
+      console.log('error');
+    }
+  }
+  mathRandom();
+}
