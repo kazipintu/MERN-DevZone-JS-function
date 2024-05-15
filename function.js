@@ -1,5 +1,36 @@
 // FUNCTION //
 
+/* 1. Name function
+   2. Call-back function
+   3. Anonymous function
+   4. Arrow function
+   5. Call-back function */
+
+{ // Name function
+  function name(params) {
+
+  }
+}
+
+{ // Anonymous function
+  addEventListener('click', function () {
+
+  })
+}
+
+{ // Arrow function
+  const functionName = (dataParameter) => {
+
+  }
+}
+
+{ // Call-back function
+  const callBack = (data) => {
+
+  }
+
+}
+
 {
   function func1(params) {
     console.log('abul ' + 'habul');
