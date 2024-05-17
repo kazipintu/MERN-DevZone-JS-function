@@ -26,7 +26,7 @@
 
 { // Call-back function
   const callBack = (data) => {
-
+    nameFunction(data)
   }
 
 }
