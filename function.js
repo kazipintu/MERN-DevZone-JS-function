@@ -1,10 +1,9 @@
 // FUNCTION //
 
 /* 1. Name function
-   2. Call-back function
-   3. Anonymous function
-   4. Arrow function
-   5. Call-back function */
+   2. Anonymous function
+   3. Arrow function
+   4. Call-back function */
 
 { // Name function
   function name(params) {
