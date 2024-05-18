@@ -6,6 +6,32 @@
    4. Call-back function */
 
 // Name function
+
+{
+  function leapYearCheck(data) {
+    if (
+
+      (data % 4 == 0 && data % 100 != 0) || (data % 400 == 0)
+
+    ) {
+
+      console.log('It is leap year');
+
+    } else {
+      console.log('It is not a leap year');
+    }
+
+  }
+
+  leapYearCheck(2024)
+
+}
+
+// (condition) ? (return data) : (else data)
+
+/*      true =  " ", "text", number, true
+        false = undefined, "", 0, false, null, {}       */
+
 {
   function dataChecking(data) {
     console.log(data);
