@@ -5,17 +5,104 @@
    3. Arrow function
    4. Call-back function */
 
-{ // Name function
-  function name(params) {
+// Name function
+{
+  function dataChecking(data) {
+    console.log(data);
 
   }
+  dataChecking('It is a data');       // data - as a string
 }
 
-{ // Anonymous function
-  addEventListener('click', function () {
+{
+  function dataChecking(data) {
+    console.log(data);
 
-  })
+  }
+
+  dataChecking({                       // data - as an object
+    name: 'ABC',
+    age: 35,
+
+  });
+
 }
+
+{
+  function dataChecking(data) {
+    if (data == 1) {
+      console.log(true);
+    } else {
+      console.log(false);
+    }
+
+  }
+
+  dataChecking(1 + 1)                     // data - check with condition
+
+}
+
+{
+  function dataChecking(data) {
+    if (data == 1) {
+      console.log(true);
+    } else {
+      console.log(false);
+    }
+
+  }
+
+  dataChecking(0 + 1)                     // data - check with condition
+
+}
+
+{
+  function dataChecking(data) {
+    if (data == 1) {
+      console.log(true);
+    } else {
+      console.log(false);
+    }
+
+  }
+
+  dataChecking(2 - "1")                     // data - check with condition
+
+}
+
+{
+  function dataChecking(data) {
+    if (data == 1) {
+      console.log(true);
+    } else {
+      console.log(false);
+    }
+
+  }
+
+  dataChecking(0 + "1")                     // data - check with condition
+
+}
+
+{
+  function dataChecking(data) {
+    if (data == 1) {
+      console.log(true);
+    } else {
+      console.log(false);
+    }
+
+  }
+
+  dataChecking(0 + "1")                     // data - check leap year with condition
+
+}
+
+// { // Anonymous function
+//   addEventListener('click', function () {
+
+//   })
+// }
 
 { // Arrow function
   const functionName = (dataParameter) => {
