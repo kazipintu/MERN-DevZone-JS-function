@@ -27,9 +27,60 @@
 
 }
 
+{
+  function inchToFeet(number) {
+    let result;
+    result = number / '12';
+    console.log(typeof (result));
+
+  }
+  inchToFeet('100');
+
+}
+
+
+{
+  function meterToKm(distance) {
+    let result;
+    result = distance / '1000';
+    console.log(result);
+
+  }
+  meterToKm('100');
+
+}
+
+
+{
+  function isEven(number) {
+    let isEven;
+    isEven = (number % 2 == 0);
+    console.log(isEven);
+
+  }
+  isEven(15)
+
+}
+
+{
+  function isEven(number) {
+    let isEven;
+    isEven = (number % 2 == 0);
+    if (isEven) {
+      console.log('It is even number');
+    }
+    else {
+      console.log('It is odd number');
+    }
+
+  }
+  isEven(2)
+
+}
+
 // (condition) ? (return data) : (else data)
 
-/*      true =  " ", "text", number, true
+/*      true =  " ", "text", number, true, array.length
         false = undefined, "", 0, false, null, {}       */
 
 {
